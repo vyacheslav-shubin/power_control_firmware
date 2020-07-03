@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: W:\work\projects\power-supply\main.PcbDoc
+RuleKind=Clearance|RuleName=Poly|Scope=Board|Minimum=40.00
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=80.00
+RuleKind=Clearance|RuleName=220CL|Scope=Board|Minimum=20.00
+RuleKind=Width|RuleName=220S|Scope=Board|Minimum=40.00
+RuleKind=Width|RuleName=220|Scope=Board|Minimum=60.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=15.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
