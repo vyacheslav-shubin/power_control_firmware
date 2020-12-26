@@ -2,8 +2,41 @@
 FileName = main.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : main_Copper_Signal_Top.gbr
+Generating : Dielectric 1
+      File : main.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Unused
+      File : main.GM32
+
+    Adding Layer      : Unused
+
+
+Used DCodes :
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : main.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : main.GTS
+
+    Adding Layer      : Top Solder
 
     Adding Layer      : Top Layer
 
@@ -11,9 +44,113 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D10
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 2
+      File : main.GM2
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
     D11
-    D12
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : main.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : main.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : main.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : main.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D11
+    D58
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : main.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D13
     D14
     D15
@@ -28,196 +165,6 @@ Used DCodes :
     D24
     D25
     D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : main_Copper_Signal_Bot.gbr
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : main_Pads_Bot.gbr
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : main_Pads_Top.gbr
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : main_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D24
-    D36
-    D37
-    D38
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : main_Soldermask_Bot.gbr
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : main_Paste_Bot.gbr
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : main_Legend_Top.gbr
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D24
-    D36
-    D37
-    D46
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : main_Paste_Top.gbr
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : main_Soldermask_Top.gbr
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
     D47
     D48
     D49
@@ -229,13 +176,26 @@ Used DCodes :
     D55
     D56
     D57
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : main.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D11
+    D13
     D58
     D59
+    D60
 *************************************************************
 
 *************************************************************
 Generating : Keep-Out Layer
-      File : main_Keep-out.gbr
+      File : main.GKO
 
     Adding Layer      : Keep-Out Layer
 
@@ -244,99 +204,84 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 13
-      File : main_Mechanical_13.gbr
+Generating : Bottom Overlay
+      File : main.GBO
 
-    Adding Layer      : Mechanical 13
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Unused
-      File : main_Mechanical_32.gbr
-
-    Adding Layer      : Unused
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D60
+    D10
+    D11
+    D13
+    D58
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 2
-      File : main_Mechanical_2.gbr
+Generating : Bottom Solder
+      File : main.GBS
 
-    Adding Layer      : Mechanical 2
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D36
-    D38
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : main_Mechanical_1.gbr
+Generating : Top Paste
+      File : main.GTP
 
-    Adding Layer      : Mechanical 1
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
     D24
-    D36
-    D38
-    D61
-    D62
+    D25
+    D26
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 15
-      File : main_Mechanical_15.gbr
+Generating : Top Overlay
+      File : main.GTO
 
-    Adding Layer      : Mechanical 15
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D36
-    D38
-    D62
-*************************************************************
-
-*************************************************************
-Generating : Profile
-      File : main_Profile.gbr
-
-
-Used DCodes :
-    D63
-*************************************************************
-
-*************************************************************
-Generating : Non-plated through-hole drill file
-      File : main_NPTH_Drill.gbr
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Plated through-hole drill file
-      File : main_PTH_Drill.gbr
-
-
-Used DCodes :
-    D64
-    D65
-    D66
-    D67
-    D68
+    D10
+    D11
+    D12
+    D13
 *************************************************************
 
 *************************************************************
 Generating : Drill Drawing
-      File : main_Drawing_1.gbr
+      File : main.GD1
 
     Adding Drill Pair : Top Layer-Bottom Layer
 
@@ -344,13 +289,13 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D70
-    D71
+    D58
+    D61
 *************************************************************
 
 *************************************************************
 Generating : Drill Guide
-      File : main_Drillmap_1.gbr
+      File : main.GG1
 
     Adding Drill Pair : Top Layer-Bottom Layer
 
@@ -358,6 +303,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D70
+    D58
 *************************************************************
 
