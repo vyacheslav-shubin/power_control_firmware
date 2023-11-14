@@ -1,4 +1,4 @@
-#define _TRIAC_RELAY_SWAP
+.define _TRIAC_RELAY_SWAP
 
 .include "../tn13def.inc"
 .org 	0x0000
@@ -26,13 +26,16 @@
 
 .org	INT_VECTORS_SIZE
 
-#ifdef TRIAC_RELAY_SWAP
+.ifdef TRIAC_RELAY_SWAP
+    .warning "Ports swapped"
+    .warning "PORTS: RELAY=3, TRIAC=4"
     .equ	RELAY=3
     .equ	TRIAC=4
-#else
+.else
+    .warning "PORTS: RELAY=4, TRIAC=3"
     .equ	RELAY=4
     .equ	TRIAC=3
-#endif
+.endif
 
 .equ	PWR_BUTTON=0
 .equ	CNC_CTRL=2
