@@ -1,3 +1,5 @@
+#define _TRIAC_RELAY_SWAP
+
 .include "../tn13def.inc"
 .org 	0x0000
 	rjmp	main
@@ -24,8 +26,13 @@
 
 .org	INT_VECTORS_SIZE
 
-.equ	RELAY=4
-.equ	TRIAC=3
+#ifdef TRIAC_RELAY_SWAP
+    .equ	RELAY=3
+    .equ	TRIAC=4
+#else
+    .equ	RELAY=4
+    .equ	TRIAC=3
+#endif
 
 .equ	PWR_BUTTON=0
 .equ	CNC_CTRL=2
